@@ -1,0 +1,271 @@
+
+.Embed_syllabusfullsection{
+    background-color: rgb(255, 247, 233);
+    border-radius: 0 5vh 0 5vh ;
+    margin: 30px;
+    box-shadow: 5px 0px 15px 10px rgb(238, 234, 241);
+    padding: 5vh 0vw 5vh 0vw; 
+    font-family: "Hanken Grotesk", sans-serif;
+
+    }
+    .Embed_section3{
+      color: #007664;
+      
+    }
+  
+    .Embed_section3 ul{
+      color: white;
+      padding-left: 3vw;
+    }
+    
+    .Embed_section3 b{
+      color: white;
+
+    }
+    .Embed_section3 div{
+     
+      margin-bottom: 2vh;
+    }
+    .Embed_section3 summary{
+      color: black;
+      cursor: pointer;
+      padding-left: 3vh;
+    }
+    .Embed_syllabus{
+      color: #007664;
+      font-size: 1.5rem;
+      font-weight: 700;
+    
+    }
+    
+    
+    .Embed_html_section{
+ 
+      background-color: #007664;
+      padding: 0px 10px 0px 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    
+    }
+    .Embed_html_section div{
+      padding: 10px 20px 0px 20px; 
+    }
+    
+    .Embed_css_section{
+
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_css_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .Embed_bootstrap_section{
+
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    
+    }
+    .Embed_bootstrap_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .Embed_8051Microcontroller_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_8051Microcontroller_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .Embed_Project8051Microcontroller_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_Project8051Microcontroller_section div{
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .Embed_PIC16F877A_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_PIC16F877A_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .Embed_ProjectPIC16F877A_section {
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_ProjectPIC16F877A_section div { 
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .Embed_LPC2148_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_LPC2148_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .Embed_ProjectLPC2148_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_ProjectLPC2148_section div{
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .Embed_STM32_section{
+
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_STM32_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .Embed_ProjectSTM32_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_ProjectSTM32_section div{
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .Embed_Arduino_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_Arduino_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .Embed_ProjectArduino_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_ProjectArduino_section div{
+      padding: 10px 20px 0px 40px;
+    }
+
+    .Embed_ESP32_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_ESP32_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+
+    .Embed_ProjectESP32_section{
+
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_ProjectESP32_section div{
+      padding: 10px 20px 0px 40px;
+    }
+
+    .Embed_Linux_section{
+
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_Linux_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+
+    .Embed_ProjectLinux_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_ProjectLinux_section div{
+      padding: 10px 20px 0px 40px;
+    }
+
+    .Embed_RTOS_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_RTOS_section div{
+      padding: 10px 20px 0px 20px;
+    }
+
+    .Embed_ProjectRTOS_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Embed_ProjectRTOS_section div{
+      padding: 10px 20px 0px 40px;
+    }
+
+
+
+
+/*  sm (phones) */
+    
+@media only screen and (max-width: 480px) {
+  .Embed_section3 summary  {
+    /* text-align: start; */
+    margin: 0 auto;
+    margin-left: 5vw;
+    /* font-size: 19px; */
+    /* display: block;  */
+  }
+  .Embed_syllabusfullsection {
+    background-color: white;
+    margin: 0px;
+  }
+}
+
+/* md (tablets) */
+
+@media only screen and  (min-width: 481px) and (max-width: 768px)  {
+  
+}
+
+/*  lg (desktops) */
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+
+  .Embed_section3 summary {
+      padding-left: 5vh;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px)  {
+
+  .Embed_section3 summary {
+      padding-left: 5vh;
+    }
+
+}

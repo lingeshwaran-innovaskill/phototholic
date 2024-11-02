@@ -1,0 +1,39 @@
+
+
+
+
+
+.blogproject_div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 85vh;
+    padding-top: 15vh ;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: rgb(248, 241, 228);
+    /* background-image: linear-gradient(to right , white, rgb(60, 202, 195)); */
+    background-size: contain;
+}
+
+
+.blogproject_div_1{
+    width: 40vw;
+}
+.blogproject_div_1 h1{
+    font-weight: 700;
+    text-shadow: 2px 0px 0px rgb(255, 255, 255);
+
+}
+.blogproject_div_1 p{
+  text-align: justify;
+  padding-top: 5vh;
+  font-size: 17px;
+}
+
+.blogproject_div_2 .blog_projectimg{
+   width: 45vw;
+   height: 60vh;
+   box-shadow: 0px 0px 7px black;
+}
+
+

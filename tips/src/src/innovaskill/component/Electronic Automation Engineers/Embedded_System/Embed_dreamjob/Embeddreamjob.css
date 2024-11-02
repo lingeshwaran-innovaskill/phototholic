@@ -1,0 +1,89 @@
+
+
+
+
+.fsd_section4{
+    font-family: "Hanken Grotesk", sans-serif;
+
+  }
+  .fsd_section4content{
+    text-align: justify;
+    padding: 0vh 0vw 0vh 0vw;
+  }
+  .fsd_section4 h1{
+    text-align: start;
+    color: #007664;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    font-size: 1.5rem;
+    font-weight: 700;
+  
+  
+  }
+ 
+
+  .fsd_hr{
+    margin-left: 10%;
+    width: 80%;
+  }
+  .fsd_section4content ul{
+    padding-left: 3vw;
+  }
+  
+  
+
+
+
+/*  sm (phones) */
+
+@media only screen and (max-width: 480px) {
+  .fsd_section4content {
+    padding: 0vh 5vw 0vh 5vw;
+  }
+
+  .fsd_section4 p {
+    padding-left: 5%;
+    width: 95%;
+  }
+  .fsd_section4content ul {
+    padding-left: 10vw;
+  
+  }
+
+}
+
+/* md (tablets) */
+
+@media only screen and  (min-width: 481px) and (max-width: 768px) {
+
+  .fsd_section4content {
+    margin: 0vh 5vw 0vh 5vw;
+  }
+  .fsd_section4imgdiv {
+    width: 90%;
+    padding-left: 10%;
+  }
+
+  }
+
+
+/*  lg (desktops) */
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+
+  .fsd_section4content {
+      margin: 0vh 5vw 0vh 3vw;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .fsd_section4content {
+      margin: 0vh 5vw 0vh 3vw;
+  }
+  
+}
+
+
+  

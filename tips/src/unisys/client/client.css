@@ -1,0 +1,137 @@
+.client-main-div{
+    width: 100%;
+    height: 100vh;
+}
+
+/* .client-body{
+    width: 100%;
+    height: 100vh;
+   
+} */
+
+.client-top{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#023536;
+    font-family: "Tomato Grotesk", Arial, sans-serif;
+}
+
+.client-top-content{
+    width: 85%;
+    color: white;
+}
+
+.client-top-content h1{
+    margin: 5vh 0;
+    font-size:2.8rem;
+    font-weight: 500;
+}
+
+.client-top-content h3{
+    margin: 2vh 0;
+    width: 85%;
+    font-weight: 500;
+    line-height: 5vh;
+}
+
+.client-bottom{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(172, 255, 47, 0.616);
+    font-family: "Tomato Grotesk", Arial, sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.client-bot-body{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.client-logo{
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3rem;
+}
+
+.client-logo img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 2px black;
+}
+
+.client-des{
+    width: 50%;
+}
+
+.client-des h4{
+    color:#016b6d;
+    letter-spacing: 2px;
+    margin: 2vh 0;
+}
+
+.client-des h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #003134;
+    filter:contrast(1.2);
+    padding: 2vh 0;
+}
+
+
+.client-des h3{
+    width: 95%;
+    color:#016b6d;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2vh 0;
+}
+
+.client-des button{
+    width: 20vw;
+    height: 9vh;
+    color: #023536;
+    font-weight: 550;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    border: 3px solid #023536;
+    border-radius: 15px;
+    background-color:inherit;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    margin-top: 5vh;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.client-des button:hover{
+    color: #fff;
+}
+
+.client-des button::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 150%;
+    right: -20%;
+    bottom: -100%;
+    height: 0%;
+    transform: rotate(-15deg);
+    background-color: #023536;
+    transition: .3s ease-in-out;
+
+}
+
+.client-des button:hover::before{
+    height: 30vh;
+}
+
+

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* .kidsholepage{
+  font-family: "Hanken Grotesk", sans-serif;
+} */
+
+.kids_section1{
+  font-family: "Hanken Grotesk", sans-serif;
+  
+}
+.kids_section1 .kids_sec1div1{
+  /* width: 66vw; */
+  height: auto;
+  background-color: #007664;
+  color: white;
+  border-radius: 0 5vh 0 5vh ;
+  padding: 3vh 0vw 3vh 4vw;
+}
+
+.kids_sec1div1 h3{
+  padding: 3vh 3vw 0vh 0vw;
+  font-size: 1.2rem;
+
+}
+.kids_section1 h1{
+  font-size: 1.5rem;
+}
+ .kids_sec1div1 p{
+  text-align: justify;
+  padding: 2vh 3vw 3vh 0vw;
+}
+.kids_sec1div1 li{
+  list-style: none;
+  padding-left: -10vw;
+  font-size: 16px;
+  padding: 2vh 4vw 0vh 0vw;
+  text-align: justify;
+}
+.fsd_sec1div2para {
+  font-size: large;
+  font-weight: 600;
+}
+
+.kids_sec1div1 p{
+  text-align: justify;
+  padding: 2vh 3vw 3vh 0vw;
+}
+
+
+.kids_sec1div2{
+  /* width: 25vw; */
+  height: auto;
+  border-radius: 5vh 0 5vh 0;
+  box-shadow: 5px 0px 10px 5px rgb(238, 234, 241);
+  /* padding: 15px 15px 0px 15px; */
+  margin-top: 1vh;
+}
+.kids_kidsimage{
+  /* width: 23vw; */
+  /* height: 33vh; */
+  border-radius: 3vh 0 0vh 0 ;
+}
+.kids_sec1div2 p{
+  padding: 0vh 0vw 0vh 0vw;
+  font-size: large;
+  font-weight: 600;
+}
+.kids_sec1div2 span{
+  /* font-size: 1.5rem; */
+  color: gray;
+}
+
+.GiArchiveResearch{
+  margin-right: 1vw;
+}
+
+
+
+
+
+/*  sm (phones) */
+
+@media only screen and (max-width: 765px) {
+
+
+  .kids_sec1div1 h1 {
+    /* font-size: 1.2rem; */
+  }
+  .kids_sec1div1 h3 {
+    /* font-size: 16px; */
+  }
+  .kids_sec1div1 p {
+    /* font-size: 20px; */
+    width: 90%;
+    margin-left: 5%;
+
+    /* padding-left: 15px; */
+
+  }
+  /* .fsd_sec1div1 {
+    padding-bottom: 2vh;
+  } */
+
+  .kids_sec1div2  {
+    /* border-radius: 0px; */
+    width: 100%;
+    margin-top: 1vh;
+  }
+  .kids_sec1div2 span{
+    /* font-size: 1rem; */
+    color: gray;
+  
+  }
+  .kids_sec1div2 p {
+    margin-bottom: 1vh;
+  }
+
+
+}
+
+/* md (tablets) */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  .kids_sec1div1 h1{
+    /* font-size: 1.5rem; */
+  }
+  .kids_sec1div1 h3 {
+    /* font-size: 1.3rem; */
+  }
+
+  .kids_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+  .kids_sec1div2  {
+    /* border-radius: 0px; */
+    width: 70%;
+    margin-left: 15%;
+  }
+
+
+
+
+ 
+}
+
+
+/*  lg (desktops) */
+
+@media only screen and (min-width: 1025px) {
+  
+  .kids_sec1div1 h1 {
+    /* font-size: 1.5rem; */
+  }
+  .kids_sec1div1 h3 {
+    /* font-size: 1.3rem; */
+  }
+ 
+
+  .kids_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+
+}
+
+
+

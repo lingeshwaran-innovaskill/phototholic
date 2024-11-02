@@ -1,0 +1,106 @@
+
+
+.kids_section4{
+    /* display: flex;
+    justify-content: space-between; */
+    /* width: 100%; */
+    font-family: "Hanken Grotesk", sans-serif;
+
+  }
+  .kids_section4content{
+    /* width: 45%; */
+    text-align: justify;
+    /* margin: 0vh 0vw 0vh 4vw; */
+    padding: 0vh 3vw 0vh 0vw; 
+    /* align-items: center; */
+  }
+  .kids_section4 h1{
+    /* padding-left: 5vw; */
+    text-align: start;
+    /* align-items: center; */
+    color: #007664;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    font-size: 1.5rem;
+    font-weight: 700;
+  
+  }
+  .kids_section4content h1{
+   padding-bottom: 3vh;
+  }
+  .kids_section4content li{
+    list-style:none;
+    /* font-size: 10rem; */
+  }
+  .kids_section4 p{
+    /* padding-left: 5vw; */
+    /* align-items: center;*/
+    text-align: justify; 
+    
+  }
+  .kids_section4imgdiv {
+    /* width: 91%; */
+  }
+  .kids_hr{
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+
+
+
+
+
+/*  sm (phones) */
+
+@media only screen and (max-width: 766px) {
+  .kids_section4content {
+    padding: 0vh 5vw 0vh 5vw;
+  }
+  .kids_section4 h1{
+    /* font-size: 1rem; */
+  }
+  .kids_section4 p {
+    /* font-size: 20px; */
+    padding-left: 5%;
+    width: 95%;
+    /* text-align: center; */
+  }
+  .kids_section4content ul {
+    padding-left: 10vw;
+    /* font-size: 15px; */
+    
+    /* align-items: center; */
+  }
+
+}
+
+/* md (tablets) */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  .kids_section4content {
+    margin: 0vh 5vw 0vh 5vw;
+  }
+  .kids_section4imgdiv {
+    width: 90%;
+    padding-left: 10%;
+  }
+
+  }
+
+
+/*  lg (desktops) */
+
+@media only screen and (min-width: 1024px) {
+
+  .kids_section4content {
+      margin: 0vh 5vw 0vh 3vw;
+  }
+  
+}
+
+
+
+
+  

@@ -1,0 +1,139 @@
+
+#main-div{
+    background-color: black;
+    color: white;
+    /* height: 85vh; */
+}
+
+#main-div h1{
+    font-family: 'Italianno', cursive;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 8px;
+    color: inherit;
+    text-shadow: 0 0 3px white;
+}
+
+.title{
+    padding: 10vh;
+}
+
+.title span{
+    margin: 0 1.5vw ;
+}
+
+.body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin: 3vh 0;
+    color: white;
+}
+
+.icons i{
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0 1vw;
+    color: white;
+    padding: 5px 7px;
+    transition: .5s ease-in-out;
+}
+
+.icons i:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.icons h2{
+    width: 20vw;
+    font-family: 'Fugaz One', cursive;
+}
+
+.bio h3{
+    font-family: 'Italianno', cursive;
+    font-size: 2rem;
+    letter-spacing: 3px;
+    margin: 0 1.5vw;
+}
+
+.png-img{
+    width: 25vw;
+    /* height: 45vh; */
+    text-align: center;
+}
+
+.png-img h3{
+    font-family: 'Fugaz One', cursive;
+}
+
+.png-img img{
+    margin-top: 3vh;
+    width: 100%;  
+    height: 80%;
+    border-radius: 15px;
+}
+
+.copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+}
+
+.copyrights h4{
+    color: black;
+    font-weight: 800;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: 'Fugaz One', cursive;
+}
+
+.copyrights h4 a{
+    text-decoration: none;
+    color:  #042331;
+}
+
+@media (max-width:800px) {
+
+    #main-div{
+        height: 100%;
+    }
+
+    .body{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons h2{
+        width: 25vw;
+    }
+
+    .png-img{
+        width: 100%;
+        height: 100%;
+        margin-top:10vh ;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .png-img img{
+        width: 50vw;
+    }
+
+    .copyrights h4{
+        font-size: 1rem;
+    }
+}

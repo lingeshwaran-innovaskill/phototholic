@@ -1,0 +1,217 @@
+
+.franchise-main-div{
+}
+
+.franchise-main-div .franschise-body-div{
+    /* width: 100%; */
+    /* height: fit-content; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.franchise-main-div .franchise-about-div{
+    /* width: 90%;
+    height: 65vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    background-color:#007664;
+    border-radius: 0 20px 0 20px ;
+    box-shadow: rgba(99, 99, 99, 0.836) 0px 2px 8px 0px;
+}
+
+/* .franchise-about-div .franchise-about-img{
+    width: 40%;
+} */
+
+.franchise-about-div .franchise-about-img img{
+    /* width: 100%; */
+    border-radius: 0 20px 0 20px ;
+    box-shadow: rgba(0, 0, 0, 0.692) 1px 2px 8px 0px;
+}
+
+/* .franchise-about-div .franchise-about-content{
+    width: 40%;
+    height: 82%;
+} */
+
+.franchise-about-div .franchise-about-content h1{
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.franchise-about-div .franchise-about-content p{
+    color: #fff;
+    text-align: justify;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+@media (max-width:800px) {
+    .franchise-about-div .franchise-about-img img{
+        width: 80%;
+    }
+
+    .franchise-main-div .franchise-about-div{
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .franchise-about-div .franchise-about-content {
+        background-color:#007664;
+        border-radius: 0 20px 0 20px ;
+        box-shadow: rgba(99, 99, 99, 0.836) 0px 2px 8px 0px;
+    }
+}
+
+
+
+
+
+
+/* styles for franchise Details */
+
+.franchise-details-main{
+    /* width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.franchise-details-body{
+    /* width: 90%;
+    margin: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 20px 0 20px 0;
+    box-shadow: #007664a6 0px 4px 60px -12px inset, #0000004d 0px 18px 36px -18px inset , 1px 2px 3px black;
+}
+
+.franchise-details-head{
+    /* height: 11vh;
+    width: 90%; */
+    /* align-items: center;
+    display: flex;  */
+}
+
+.franchise-details-head h1{
+    font-size: 1.8rem;   
+    color: #014d41;
+}
+
+.franchise-details-body .franchise-details-content{
+    /* width: 80%; */
+}
+
+.franchise-details-content .franchise-content{
+    /* width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: start;
+    align-items: center; */
+}
+
+.franchise-details-content .franchise-content .i{
+    color:#4D3517;
+    font-size: 1.5rem;
+}
+
+.franchise-details-content .franchise-content h3{
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 500;
+}
+
+@media (max-width:700px) {
+    .franchise-details-head h1{
+        font-size: 1.5rem;   
+    }
+    .franchise-details-content .franchise-content .i{
+        color:#4D3517;
+        font-size: 1.2rem;
+    }
+    
+    .franchise-details-content .franchise-content h3{
+        font-size: .9rem;
+        font-weight: 500;
+    }
+}
+
+
+
+
+/* style for franchise support  */
+
+
+.franchise-support-body{
+    /* width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 0 20px 0 20px;
+    box-shadow: #007664a6 0px 4px 60px -12px inset, #0000004d 0px 18px 36px -18px inset , 1px 2px 3px black; 
+}
+
+.franchise-support-body .franchise-support-head{
+    /* width: 90%;
+    height: 11vh;
+    display: flex;
+    align-items: center; */
+}
+
+.franchise-support-body .franchise-support-head h1{
+    color: #014d41;
+    font-size: 1.8rem;
+}
+
+.franchise-support-body .franchise-support-content{
+    /* width: 80%; */
+}
+
+.franchise-support-content .support-content{
+    /* height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start; */
+}
+
+.franchise-support-content .support-content .j{
+    color: #4D3517;
+    font-size: 1.5rem;
+    /* width: 5%; */
+}
+
+.franchise-support-content .support-content h3{
+    /* width: 100%; */
+    text-align: justify;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+
+@media (max-width:700px) {
+    .franchise-support-body .franchise-support-head h1{
+        font-size: 1.5rem;   
+    }
+    
+    .franchise-support-content .support-content .j{
+        color: #4D3517;
+        font-size: 1.2rem;
+    }
+
+    .franchise-support-content .support-content h3{
+        font-size: .9rem;
+        font-weight: 500;
+    }
+}

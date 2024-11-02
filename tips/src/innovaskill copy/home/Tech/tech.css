@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+.tech-main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Schibsted Grotesk", sans-serif;
+    /* background-color: #dbe9f4; */
+    background:linear-gradient(to bottom, #fff ,#00a876 , #ffffff ) ;
+}
+
+.tech-head{
+    width: 85%;
+    height: 2vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.tech-head h1{
+    font-size:1.8rem;
+    letter-spacing:2px; 
+    /* color: #007664; */
+    color: #014d41;
+    /* text-shadow: 0 0 3px #007664; */
+}
+
+.tech-body{
+    width: 90%;
+    height: 80%;
+}
+
+.tech-main-content{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tech-body .tech-main-content .tech-div{
+    width: 20%;
+    background-color: #dbe9f4;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px black;
+    height: fit-content;
+    border-top-left-radius:4em;
+}
+
+.tech-body .tech-main-content .tech-div img{
+    width: 100%;
+    border-top-left-radius:4em;
+}
+
+.tech-body .tech-main-content .tech-div .tech-content{
+    height: 30vh;
+    padding: 1rem;
+}
+
+.tech-body .tech-div .tech-content h3{
+    height: 5vh;
+    padding: 2vh 0;
+    font-weight: 500;
+    color: #00a876;
+}
+
+.tech-body .tech-div .tech-content p{
+    padding: 2vh 0;
+    color: #0b5247;
+    text-align: justify;
+}
+
+.tech-body .tech-div .tech-content a{
+    padding: 2vh 0;
+    color:#007664;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#style-radius , #style-radius img{
+    border-radius: 0 4rem 0 0;
+}

@@ -1,0 +1,135 @@
+.enquiry-form-main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    background: url(./images/5.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    /* z-index: -1; */
+}
+
+.enquiry-body{
+    width:30%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ffffff7a; */
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10%;
+    /* background-color: white; */
+}
+
+.enquiry-form-main .enquiry-bg-img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.form-head{
+    width: 13vw;
+    height: 10vh;
+}
+
+.form-head h2{
+    color: #000;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.enquiry-body form{
+    width: fit-content;
+    height: 73%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enquiry-body form input{
+    width: 15vw;
+    height: 4vh;
+    padding: .5vh 2vw;
+    border: none;
+    color: #fff;
+    outline: none;
+    background-color: #3078B3;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px black;
+    font-weight: 600;
+}
+
+.enquiry-body form input::placeholder , .enquiry-body form textarea::placeholder {
+    color: #fff;
+}
+
+.enquiry-body form select{
+    width: 19vw;
+    height: 5vh;
+    padding: .5vh 1.6vw;
+    border: none;
+    outline: none;
+    background-color: #3078B3;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px black;
+    font-weight: 600;
+    color: #fff;
+}
+
+.enquiry-body form datalist option{
+    padding: .5vh 2vw;
+    width: 19vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #007664;
+}
+
+.enquiry-body form textarea{
+    resize: none;
+    background-color: #3078B3;
+    border: none;
+    outline: none;
+    box-shadow: 2px 1px 3px black;
+    border-radius: 10px;
+    padding: .5vh 2vw;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.enquiry-body form button{
+    width: 8vw;
+    height: 4vh;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 2px 1px 3px black;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 600;
+    margin-top: 3vh;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.enquiry-body form button:hover{
+    background-color: #EFCF7E;
+    color: #000;
+}
+
+/* for animation */
+
+#form-particles{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+  }
+  

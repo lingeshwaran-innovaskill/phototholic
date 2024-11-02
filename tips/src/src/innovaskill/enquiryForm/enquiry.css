@@ -1,0 +1,119 @@
+.enquiry-form-main{
+    width: 100%;
+    height: 100vh;
+    font-family: "Hanken Grotesk", sans-serif;
+    background: url(./images/5.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.enquiry-body{
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10%;
+}
+
+.form-head h1{
+    color: #000;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.logo-1 img{
+    width: 65%;
+}
+
+
+.enquiry-body form input{
+    border: none;
+    color: #fff;
+    outline: none;
+    background-color: #007664;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px black;
+    font-weight: 600;
+}
+
+.enquiry-body form input::placeholder , .enquiry-body form textarea::placeholder , .enquiry-body form select::placeholder{
+    color: #ffffff;
+    font-size: .9rem;
+}
+
+ .enquiry-body form select {
+    border: none;
+    outline: none;
+    background-color: #007664;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px black;
+    font-weight: 600;
+    color: #fff;
+}
+
+.enquiry-body form select option{
+    /* background-color: #000; */
+    width: 5vw;
+    /* color: #fff; */
+}
+
+.enquiry-body form .datalist option{ 
+    border-radius: 10px;
+    /* background-color: #000; */
+    color: #fff ;
+}
+
+.enquiry-body form textarea{
+    resize: none;
+    background-color: #007664;
+    border: none;
+    outline: none;
+    box-shadow: 2px 1px 3px black;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.enquiry-form-main a{
+    color: #007664;
+    font-size: 1.4rem;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+    box-shadow: 2px 1px 3px black;
+}
+
+.enquiry-form-main button {
+    border: none;
+    outline: none;
+    box-shadow: 2px 1px 3px black;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.enquiry-form-main button:hover , .enquiry-form-main a:hover{
+    background-color: #007664;
+    color: #fff;
+}
+
+/* particles animation */
+
+.particles{
+    position: relative;
+    z-index: -1;
+}
+#form-particles{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+}
+  
+
+@media (max-width:800px) {
+    .logo-1 img{
+        width: 85%;
+    }
+}

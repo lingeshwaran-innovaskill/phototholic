@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* .fsd_mern{
+  font-family: "Hanken Grotesk", sans-serif;
+} */
+
+
+.ai_section1{
+  /* width: 100vh; */
+  /* display: flex;
+  justify-content: space-evenly; */
+  /* width: 100%; */
+  font-family: "Hanken Grotesk", sans-serif;
+
+}
+.ai_section1 .ai_sec1div1{
+  /* width: 71%; */
+  height: auto;
+  background-color: #007664;
+  color: white;
+  border-radius: 0 5vh 0 5vh ;
+  padding: 3vh 0vw 0vh 4vw;
+  /* padding-top: 5vh; */
+  /* margin-left: 0px; */
+}
+
+.ai_sec1div1 h1{
+  font-size: 1.5rem;
+}
+
+.ai_sec1div1 h3{
+  padding: 3vh 3vw 0vh 0vw;
+  font-size: 1.2rem;
+}
+.ai_sec1div1 p{
+  text-align: justify;
+  padding: 2vh 3vw 3vh 0vw;
+}
+.ai_modulesection li{
+  list-style: none;
+  padding: 1vh 0vw 0vh 0vw;
+}
+.ai_modulesection{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ai_modulesection a{
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  padding: .5vh 1vw .5vh 1vw;
+  border-radius: 0vh 1vw 0vh 0vw;
+  transition: .5 ease-out;
+}
+.ai_modulesection p{
+  color: white;
+  
+}
+.ai_modulesection a:hover{
+  background-color: rgb(255, 255, 255);
+  /* width: 19vw;
+  height: 4vh; */
+  color:#007664;
+}
+
+
+
+
+ .ai_sec1div2{
+  /* width: 27%; */
+  height: auto;
+  margin-top: 1vh;
+  /* border: 1px solid black; */
+  border-radius: 5vh 0 5vh 0;
+  box-shadow: 5px 0px 10px 5px rgb(238, 234, 241);
+  /* margin-right: 2vw; */
+  /* padding: 15px 15px 0px 15px; */
+}
+.ai_sec1div2sub_div {
+  /* padding-left: 3vw; */
+}
+.fullsatckimage{
+  /* padding: 0 1vw .5vh 1vw; */
+  /* width: 25vw;
+  height: 35vh; */
+  border-radius: 3vh 0 0vh 0 ;
+}
+.ai_sec1div2 .ai_sec1div2para{
+  /* padding: 3vh 0vw 0vh 0vw; */
+  font-size: large;
+  font-weight: 600;
+  /* margin-top: 3vh; */
+
+}
+.ai_sec1div2 p{
+  /* padding-top: 2vh; */
+}
+.ai_sec1div2 span{
+  /* font-size: 1.3rem; */
+  color: gray;
+
+}
+
+.AnimatedButton {
+  margin-bottom: 2vh;
+}
+
+
+
+
+/*  sm (phones) */
+
+@media screen and (max-width: 480px) {
+
+
+  .ai_sec1div1 h1 {
+    /* font-size: 1.2rem; */
+  }
+  .ai_sec1div1 h3 {
+    /* font-size: 16px; */
+  }
+  .ai_sec1div1 p {
+    /* font-size: 20px; */
+    width: 90%;
+    margin-left: 5%;
+
+    /* padding-left: 15px; */
+
+  }
+  /* .fsd_sec1div1 {
+    padding-bottom: 2vh;
+  } */
+  .ai_modulesection li {
+    /* font-size: 16px; */
+    /* padding-left: -vw; */
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+  .ai_sec1div2  {
+    /* border-radius: 0px; */
+    width: 100%;
+  }
+  .ai_sec1div2 span{
+    /* font-size: 1rem; */
+    color: gray;
+  
+  }
+  .ai_sec1div2 p {
+    margin-bottom: 1vh;
+  }
+
+
+
+
+  
+}
+
+/* md (tablets) */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  
+  .ai_sec1div1 h1{
+    /* font-size: 1.5rem; */
+  }
+  .ai_sec1div1 h3 {
+    /* font-size: 1.3rem; */
+  }
+  .ai_modulesection li {
+    /* font-size: 14px; */
+    /* padding-left: -vw; */
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+  .ai_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+  .ai_sec1div2  {
+    /* border-radius: 0px; */
+    width: 70%;
+    margin-left: 15%;
+  }
+
+
+
+
+ 
+}
+
+
+/*  lg (desktops) */
+
+@media screen and (min-width: 769px) and (max-width: 1023px){
+  
+  .ai_sec1div1 h1 {
+    /* font-size: 1.5rem; */
+  }
+  .ai_sec1div1 h3 {
+    /* font-size: 1.3rem; */
+  }
+  .ai_modulesection li {
+    /* font-size: 14px; */
+    /* padding-left: -vw; */
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+
+  .ai_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+  .ai_sec1div2  {
+    /* border-radius: 0px; */
+    width: 70%;
+    margin-left: 15%;
+  }
+
+
+
+ 
+}
+
+/*  xl (large) */
+
+@media screen and (min-width: 1024px) {
+
+
+  .ai_sec1div1 h1 {
+    /* font-size: 1.5rem; */
+  }
+  .ai_sec1div1 h3 {
+    /* font-size: 1.3rem; */
+  }
+  .ai_modulesection li {
+    /* font-size: 14px; */
+    /* padding-left: -vw; */
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+
+  .ai_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+
+
+}
+
+
+
+

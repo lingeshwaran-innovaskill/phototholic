@@ -1,0 +1,239 @@
+
+.text_blog .TextTransition {
+  font-family: "Hanken Grotesk", sans-serif;
+  /* font-family: cursive;
+  font-weight: 800; */
+  color: #65f3de;
+  /* width: 40vw; */
+  /* background-color: black;
+   color: white; */
+  /* padding-left: 50vh; 
+  padding-top: 50vh;*/
+  /* font-size: 15px;  */
+  font-weight: 700;
+  margin-top: 3vh;
+  font-style: cursive;
+}
+.text_blog {
+  /* height: 80vh; */
+  /* font-family: cursive; */
+  /* font-weight: 800; */
+  /* padding-left: 10vh; */
+  /* padding-top: 40vh; */
+  /* font-size: 3.9rem; */
+  /* background-color: white; */
+  /* background-image: url('./blog_image/BANNER1.svg'); */
+  /* background-size: cover; */
+  /* height: 100vh; */
+  /* background-repeat: no-repeat; */
+  transition: 5s ease-in-out;
+  color: white;
+
+}
+
+
+
+  .blog_section2 {
+    /* display: flex;
+    justify-content: space-around; */
+    /* width: 100%;  */
+    font-family: "Hanken Grotesk", sans-serif;
+    /* height: 100%; */
+
+  }
+  .blog_sec2div {
+    /* margin-left: 12vh; */
+    box-shadow: 0px 0px 10px black;
+    /* padding: 2vh; */
+    /* width: 30vw; */
+    height: auto;
+    border-radius: 5vh 0vw 0vh 0vw;
+  }
+  .blog_section2 .blog_sec2div h2 {
+    color: #007664;
+    padding: 10px 0px 5px 10px;
+    font-size: 1.4rem;
+    /* text-align: center; */
+  }
+  .blog_section2 .blog_sec2div img {
+    /* width: 30vw; */
+    border-radius: 5vh 0vw 0vh 0vw;
+    padding: 0px;
+    margin: 0px;
+
+    /* width: 35%; */
+    /* height: 40vh; */
+  }
+  .blog_section2 .blog_sec2div p {
+    text-align: justify;
+    padding: 10px 10px 10px 10px;
+    /* box-shadow: 0px 0px 5px; */
+  }
+  .blog_sec2div .blog_sec2div_button {
+    /* margin-left: 21vw; */
+    /* width: 8vw; */
+    
+    /* height: 5vh; */
+    color: white;
+    background-color: #007664;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px;
+    margin-bottom: 1vh;
+  }
+
+  .blog_sec2div .blog_sec2div_button:hover {
+    color:black;
+    background-color: orangered;
+   
+  }
+
+  .blog_sec2div b {
+    /* padding: 0px 0px 0px 10px; */
+    color: rgb(51, 51, 248);
+    /* margin-bottom: 2vh; */
+    padding: 0px 0px 10px 10px;
+  }
+
+  .blog_sec2div {
+    padding: 0px 0px 10px 0px ;
+  }
+
+
+/*  sm (phones) */
+
+@media only screen and (max-width: 765px) {
+
+  .blog_sec2div {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2vh;
+  }
+  .blog_sec2div_button {
+    /* text-align: end; */
+    /* margin-top: 3vh; */
+    margin-left: 18%;
+  }
+  .TextTransition {
+    font-size: 1.2em;
+  }
+
+
+  
+  .text_blog{
+    margin: -20vh 0vw 0vh 5vw;
+ 
+   }
+   .text_blog h1{
+    font-size: 1.3rem;
+   }
+  .blog_backround {
+    width: 100%;
+    /* height: 40vh; */
+    padding: 0;
+    margin: 0;
+  }
+  .blog_section2  {
+    margin: -8vh 0vw 0vw 0vh;
+
+  }
+  .text_blog .TextTransition {
+    width: 50vw;
+    height: 20vh;
+    font-size: 14px;
+  }
+
+
+
+}
+
+/* md (tablets) */
+
+@media only screen and (min-width: 768px) and (max-width: 1022px) {
+
+  .blog_section2_row {
+    width: 100%;
+
+  }
+  .blog_sec2div {
+    width: 45%; 
+    margin-left: 5%;
+    margin-bottom: 2vh;
+  }
+
+  .blog_sec2div .blog_sec2div_button {
+    /* text-align: end; */
+    /* margin-top: 3vh; */
+    margin-left: 8%;
+  }
+  
+  
+  .text_blog{
+    margin: -23vh 0vw 0vh 5vw;
+ 
+   }
+   .text_blog h1{
+    font-size: 1.5rem;
+   }
+  .blog_backround {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .blog_section2  {
+    margin: -3vh 0vw 0vw 0vh;
+
+  }
+  .text_blog .TextTransition {
+    width: 40vw;
+    height: 20vh;
+    font-size: 1.3rem;
+  }
+
+
+
+}
+
+/*  lg (desktops) */
+
+@media only screen and (min-width: 1023px) {
+
+  .blog_section2_row {
+    width: 100%;
+
+  }
+  .blog_sec2div {
+    width: 25%; 
+    margin-left: 7%;
+  }
+  .blog_sec2div .blog_sec2div_button {
+    /* text-align: end; */
+    /* margin-top: 3vh; */
+    margin-left: 15%;
+  }
+
+  .text_blog{
+   margin: -69vh 0vw 0vh 5vw;
+
+  }
+  .blog_backround {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .blog_section2  {
+    margin: 45vh 0vw 0vw 0vh;
+
+  }
+  .text_blog .TextTransition {
+    width: 40vw;
+    height: 20vh;
+    font-size: 1.5rem;
+  }
+}
+
+
+

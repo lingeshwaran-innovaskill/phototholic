@@ -1,0 +1,104 @@
+.navbar {
+  background-color: #060b26;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-bars {
+  font-size: 2rem;
+  background: none;
+}
+
+.nav-menu {
+  background-color: #060b26;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #EF9B41;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+
+.navbar-toggle {
+  background-color: #060b26;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.log-out button{
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #EF9B41;
+  border-radius: 10px;
+  background: none;
+  color: #EF9B41;
+  transition: .3s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.log-out button:hover{
+  background-color: #EF9B41;
+  color: #fff;
+}
+
+.admim-dashboard i{
+  cursor: pointer;
+  color: #fff;
+}
+
+.admim-dashboard{
+  height: 13vh;  
+}
+
+.admin-nav img{
+  width: 50%;
+}
+
+.admim-dashboard span{
+  font-weight: 600;
+  padding: 0 .5vw;
+  transition: .3s ease-in-out;
+}
+
+.nav-text:hover span{
+  padding-left: 15px;
+}

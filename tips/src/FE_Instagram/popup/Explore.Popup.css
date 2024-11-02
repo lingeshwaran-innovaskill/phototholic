@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oleo+Script&display=swap');
+/* font-family: "Great Vibes", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Great+Vibes&family=Oleo+Script&display=swap');
+
+.Explore-popup-body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.596);
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.Explore-media-popup{
+    position: absolute;
+    width: 50vw;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 3px whitesmoke;
+    border-radius: 10px;
+    color: white;
+    padding: 2vh 2vw;
+    transform: scaleY(1);
+    animation: slide .2s ease-in-out alternate 1;
+}
+
+@keyframes slide {
+    0%{
+        transform-origin: top;
+        transform: scaleY(0);
+    }
+    100%{
+        transform-origin: top;
+        transform: scaleY(1);
+    }
+}
+
+.vdo{
+    width: 80%;
+}
+
+.Explore-media-popup video{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.media-content img{
+    width: 100%;
+}
+
+.imgArr i{
+    background-color: white;
+    padding: .6vh .6vw;
+    font-size: .7rem;
+    font-weight: bolder;
+    color: rgb(82, 81, 81);
+    box-shadow:  0 0 4px black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.back{
+    transform: translate(0 , 30vh);
+}
+
+.fore{
+    transform: translate(20vw , -32vh);
+}
+
+.media-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.forward , .backward {
+    position: absolute;
+    cursor: pointer;
+}
+
+.forward{
+    margin-right: -90vw;
+}
+
+.backward{
+    margin-right: 90vw;
+}
+
+.forward i , .backward i{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+}
+
+.forward:hover i, .backward:hover i{
+    color: grey;
+}
+
+.forward i:active , .backward i:active {
+    background-color: gray;
+}
+
+.cut i{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    transform: translate(35vw , -45vh);
+    cursor: pointer;
+}
+
+.media-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.profile{
+    width:95%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    border-left: 1px solid rgb(87, 86, 86) ;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+}
+
+.media-profile-title{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.profile img , .comment img {
+    width: 3vw;
+    height: 5vh;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgb(165, 164, 164);
+}
+
+.comment .img{
+    width: 3vw;
+    height: 10vh;
+}
+
+.media-description p{
+    margin: 0;
+    padding: 1vh 1vw;
+}
+
+.profile p span{
+    color: rgb(0, 132, 255);
+    margin: 0 1vw;
+    cursor: pointer;
+}
+
+.profile p span:hover{
+    color: white;
+}
+
+.profile i{
+    cursor: pointer;
+}
+
+.profile i:hover{
+    color: rgb(160, 156, 156);
+}
+
+#dot{
+    color: black;
+    float: left;
+    background-color: none;
+    margin-left: 10vw;
+}
+
+.comment{
+    padding: 1em;
+    width:95%;
+    height: 35vh;
+    border-left: 1px solid rgb(87, 86, 86) ;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+}
+
+.comment-1{
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+}
+
+.cmt-body{
+    display: flex;
+    margin: 5vh 0;
+}
+
+.cmt-body .cmt h6{
+    font-size: 1.2rem;
+    font-weight: 300;
+    /* letter-spacing: 1px; */
+    margin: 0 1vw;
+    font-family: "Oleo Script", system-ui;
+}
+
+.comment-1  .comment-description h4{
+    padding: 1vh 1vw;
+    margin: 0;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.comment-1 .comment-description em{
+    padding: 1vh 1vw;
+    font-weight: bolder;
+    color: rgb(179, 176, 176);
+}
+
+.react{
+    padding: 1em;
+    width: 95%;
+    height: 12vh;
+    border-left: 1px solid rgb(87, 86, 86) ;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.react-icons{
+    margin: .5vw 0;
+    display: flex;
+}
+.left-icons{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+.right-icons{
+    display: flex;
+    justify-content: end;
+}
+.react .react-icons i{
+    cursor: pointer;
+    margin-right:1vw;
+    font-size: 1.5rem;
+}
+.like{
+    color: red;
+}
+
+.react .react-icons i:hover{
+    color: rgb(189, 187, 187);
+}
+
+.react h6{
+    font-size: 1.1rem;
+    padding: 1vh 0;
+    margin: 0;
+}
+
+.react em{
+    opacity: .7;
+}
+
+.type-comment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    width: 95%;
+    height: 3vh;
+    border-left: 1px solid rgb(87, 86, 86) ;
+    /* border-bottom: 1px solid rgba(255, 255, 255, .1); */
+}
+
+.type-comment p{
+    width: 0;
+    margin: 1vh 1vw;
+    font-size: 1.2rem;
+}
+
+.type-comment p:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.type-comment-1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.type-comment-1 input{
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    background: none;
+    margin-left: 1vw;
+    font-size: 1rem;
+}
+
+.type-comment-1 i{
+    font-size: 1.3rem;
+    cursor: pointer;
+}

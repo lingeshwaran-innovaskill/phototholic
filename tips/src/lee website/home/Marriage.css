@@ -1,0 +1,216 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+  /* font-family: 'Italianno', cursive; */
+
+.main-des{
+    margin: 15vh 8vw 0vh 8vw;
+}
+
+.main-des h1{
+    margin-bottom: 3rem;
+    font-family: 'Tenor Sans', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: 27%;
+    font-size: 3rem;
+    border-bottom: 2px solid black;
+    width: fit-content;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#title{
+    animation: title 2s 1;
+}
+
+ /* @keyframes title {
+    25%{
+        opacity: 0;
+        transform: translate(-80vw , 0);
+    }
+     70%{
+        opacity: .7;
+    } 
+    70%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}  */
+
+#title span{
+    color: #042331;
+}
+
+.M-body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.description{
+    width: 50%;
+   text-align: justify;
+   animation: des  3s cubic-bezier(0.23, 1, 0.320, 1) 1;
+}
+
+/* @keyframes des {
+    25%{
+        opacity: 0;
+    }
+     50%{
+        opacity: .5;
+    } 
+    100%{
+        opacity: 1;
+    }
+} */
+
+.description h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-family: 'Fugaz One', cursive;
+}
+
+.description h3{
+    padding: 10px;
+    font-family: 'Italianno', cursive;
+     font-weight: 700;
+     font-size: 1.7rem;
+}
+
+.des-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+ .des-img img{
+    background-position: center;
+    background-size: cover;
+    /* cursor: pointer; */
+    width: 19vw;
+    height: 50vh;
+    border-radius: 10px;
+    margin-left:20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 10px , rgba(0, 0, 0, 0.3) 0px 5px 10px;
+    transition: 200ms ease-in-out;
+    animation: img1 4s cubic-bezier(0.23, 1, 0.320, 1) 1;
+}
+
+/* @keyframes img1 {
+    25%{
+        opacity: 0;
+        transform: rotateY(180deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+} */
+
+.des-img img:nth-child(2){
+    margin-bottom:4rem;
+    transition-delay:2s;
+}
+
+.imgSlide{
+    font-size: 3rem; 
+    display: none;
+}
+.imgSlide b{
+    cursor: pointer;
+    margin: 0 2px;
+    color:  #042331;
+    text-shadow: 0 0 5px black;
+}
+
+.main-des button{
+    width: 10vw;
+    height: 5vh;
+    font-family: 'Fugaz One', cursive;
+    background-color: rgb(255, 167, 53);
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px black;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+}
+
+.main-des button:hover{
+    border-radius: 20px;
+}
+
+ .main-des button:active{
+    box-shadow: none;
+} 
+
+@media (max-width:800px) {
+
+.main-des{
+    margin: 0 8vw;
+}
+
+    .main-des{
+        align-items: center;
+        text-align: center;
+    }
+
+    .main-des h1{
+        font-size: 2rem;
+        margin: 0 19vw;
+        /* align-items: center; */
+        /* width: 100%; */
+        text-align: center;
+    }
+
+    .M-body{
+        display: block;
+        width: 100%;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .description h2{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .description h3{
+        font-size: 1.5rem;
+    }
+
+    .des-img{
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+    }
+
+    .des-img img{
+        background-position: center;
+        background-size: cover;
+        width: 80%;
+        height: 100%;
+        transition: .5s ease;
+    }
+
+    .des-img img:nth-child(2){
+        display: none;
+    }
+
+    .imgSlide{
+        display: block;
+    }
+
+.main-des button{
+    margin: 5vh 0;
+    width: 20vw;
+    height: 5vh;
+}
+}

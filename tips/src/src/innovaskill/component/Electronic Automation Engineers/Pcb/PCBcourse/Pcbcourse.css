@@ -1,0 +1,113 @@
+
+.pcb_syllabusfullsection{
+    background-color: rgb(255, 247, 233);
+    border-radius: 0 5vh 0 5vh ;
+    margin: 10px;
+    box-shadow: 5px 0px 15px 10px rgb(238, 234, 241);
+    padding: 5vh 0vw 5vh 0vw; 
+    font-family: "Hanken Grotesk", sans-serif;
+
+    }
+    .pcb_section3{
+      color: #007664;
+      
+    } 
+    
+    .pcb_section3 ul{
+      color: white;
+      padding-left: 3vw;
+    }
+    
+    .pcb_section3 b{
+      color: white;
+    }
+    .pcb_section3 div{
+     
+      margin-bottom: 2vh;
+    }
+    .pcb_section3 summary{
+      color: black;
+      cursor: pointer;
+      padding-left: 5vh;
+    }
+    .pcb_syllabus{
+      color: #007664;
+      font-size: 1.5rem;
+      font-weight: 700;
+    
+    }
+    
+    
+    .pcb_OrCADCapture_section {
+      background-color: #007664;
+      padding: 0px 10px 0px 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    
+    }
+    .pcb_OrCADCapture_section div{
+      padding: 10px 20px 0px 20px; 
+    }
+    
+    .pcb_OrCADPSPICE_section {
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .pcb_OrCADPSPICE_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .pcb_OrCADPCBEditor_section{
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    
+    }
+    .pcb_OrCADPCBEditor_section div{
+      padding: 10px 20px 0px 20px;
+    }
+
+
+
+
+
+
+
+/*  sm (phones) */
+    
+@media only screen and (max-width: 480px) {
+  .pcb_section3 summary  {
+    margin: 0 auto;
+    margin-left: 5vw;
+  }
+  .pcb_syllabusfullsection {
+    background-color: white;
+    margin: 0px;
+  }
+
+}
+
+/* md (tablets) */
+
+@media only screen and  (min-width: 481px) and (max-width: 768px)  {
+  
+}
+
+/*  lg (desktops) */
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+
+  .pcb_section3 summary {
+      padding-left: 5vh;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px)  {
+
+  .pcb_section3 summary {
+      padding-left: 5vh;
+    }
+
+}

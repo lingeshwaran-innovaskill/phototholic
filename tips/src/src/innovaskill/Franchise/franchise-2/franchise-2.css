@@ -1,0 +1,165 @@
+.franchise-collage-main{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.franchise-collage-head  h1{
+  color: #014d41;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.franchise-collage-img img{
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 1px 2px 3px black;
+  box-shadow: rgba(0, 118, 100, 0.4) -5px 5px,
+              rgba(0, 118, 100, 0.3) -10px 10px,
+              rgba(0, 118, 100, 0.2) -15px 15px,
+              rgba(0, 118, 100, 0.1) -20px 20px,
+              rgba(0, 118, 100, 0.05) -25px 25px;
+}
+
+/* style for form  */
+
+.franchise-form-main{
+    /* width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.franchise-form-main .franchise-form-head{
+  /* width: 89.5%; */
+}
+.franchise-form-main .franchise-form-head h1{
+  font-size: 1.8rem;
+  color: #014d41;
+}
+
+.franchise-form-main .franchise-form-body{
+    /* width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.franchise-form-main .franchise-form-body .franchise-form{
+    /* width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.franchise-form-body .franchise-form form{
+    /* width: 50%;
+    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start; */
+}
+
+.franchise-form-body form input{
+  /* width: 15vw; */
+  /* height: 6vh; */
+  /* padding: .1vh 1vw; */
+  outline: none;
+  border: 2px solid #014d41;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.franchise-form-body form h3{
+  font-weight: 400;
+  font-size: .9rem;
+  color: #000000c0;
+}
+.franchise-form-body form .prof{
+  padding: .5vh 1vw; 
+}
+
+.franchise-form-body form select{
+  /* width: 9vw; */
+  /* padding: .5vh 1vw; */
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 2px solid #014d41;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: #000000c0;
+}
+.franchise-form-body form select option{
+  background-color: #007664;
+  color: #fff;
+}
+
+.franchise-form-body form .select-location{
+  /* width: 19vw;
+  display: flex;
+  justify-content: space-between; */
+}
+
+.franchise-form form .franchise-form-btn{
+  /* width: 85%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: end; */
+}
+
+.franchise-form-btn button{
+  /* width: 8vw; */
+  /* height: 5vh; */
+  background-color: #014d41;
+  font-weight: 500;
+  font-size: .9rem;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px black;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.franchise-form-btn  button:hover{
+  background-color: #fff;
+  color: #014d41;
+}
+
+.franchise-form-body .franchise-form-img{
+  /* width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.franchise-form-body .franchise-form-img img{
+  /* width: 80%; */
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px black;
+}
+
+
+@media (max-width:1000px) {
+  .franchise-form-img{
+    display: none;
+  }
+}
+
+@media (max-width:700px) {
+  .franchise-collage-head  h1{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width:500px) {
+  .franchise-form-main .franchise-form-head h1{
+    font-size: 1.5rem;
+  }
+}

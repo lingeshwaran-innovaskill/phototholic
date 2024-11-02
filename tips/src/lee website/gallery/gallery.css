@@ -1,0 +1,87 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+#banner-img{
+    width: 100%;
+    height: 100vh;
+}
+
+#banner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner-img h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-size: 2rem;
+    /* font-family: "Sacramento", cursive; */
+    /* font-family: "Raleway", serif; */
+    font-family: 'Sacramento', cursive;
+    color: rgba(255, 255, 255, 0.329);
+}
+
+.main-gal{
+    background-color: beige;
+}
+
+.main-gal h1{
+    text-align: center;
+    /* font-family: 'Tenor Sans', sans-serif; */
+    font-size: 3rem;
+    margin: 10vh 0 5vh 0;
+    border-bottom: 2px solid black;
+    width: fit-content;
+    margin-left: 37vw;
+    letter-spacing: .5rem;
+}
+
+.main-gal h1 span{
+    margin-left: 1vw;
+    color: #042331;;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+    /* margin: 1%; */
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0vh 5vw;
+    gap: 5px;
+}
+
+.gal{
+    margin: 1%;
+}
+
+.gal-img{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+@media (max-width:800px) {
+    #banner-img img{
+     /* background: center; */
+     background-position: center;
+     max-height: 75vh;
+    }
+
+    .main-gal h1{
+        margin: 10vh 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,151 @@
+.Home{
+    width: 100%;
+    height: 100vh;
+}
+
+.Home-main{
+    transition: 1s ease-in-out;
+}
+
+.Home img{
+    width: 100%;
+    height: 100%;
+    /* position: fixed; */
+    /* object-fit: cover; */
+}
+
+.homePic{
+    height: 100vh;
+    /* background-position: center;
+    background-size: cover;
+    object-fit: cover; */
+}
+
+.Home-div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#parallax-mrg{
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: .5s ease-in-out;
+}
+
+#parallax-mrg h2{
+    font-family: 'Italianno', cursive;
+    letter-spacing: 10px;
+    color: #838181;
+    filter: drop-shadow(0 0 5px rgb(255, 255, 255));
+    animation: welcome 5s infinite cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+@keyframes welcome {
+
+    25%{
+    letter-spacing: 15px;
+    filter: drop-shadow(0 0 5px rgb(43, 186, 211));
+    }
+
+    75%{
+        letter-spacing: 0;
+    filter: drop-shadow(0 0 5px rgb(243, 162, 41));
+    }
+
+}
+
+#parallax-mrg .img{
+    width: 90%;
+    height: 60vh;
+}
+
+#parallax-mrg img{
+    width: 100%;
+    height: 100%;
+}
+
+#parallax-mrg button{
+    width: 10vw;
+    height: 5vh;
+    font-family: 'Fugaz One', 'cursive';
+    background-color: rgb(255, 167, 53);
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+}
+#parallax-mrg button:hover{
+    border-radius: 20px;
+}
+
+#parallax-mrg button:active{
+    transform: scale(0.95);
+}
+
+.Home-div h1{
+    font-size: 30px;
+    font-family: 'Fugaz One', cursive;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: antiquewhite;
+    text-shadow: 0px 0px 5px black;
+    transition: .5s;
+    animation: title1 5s infinite;
+}
+
+.Home-div h1 span{
+    text-transform: uppercase;
+}
+
+@keyframes title1 {
+    0%{
+        color: transparent;
+        margin-bottom: -40px;
+    }
+    25%{
+        letter-spacing: 15px;
+        margin-bottom: -40px;
+    }
+    50%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+    100%{
+        letter-spacing: 0;
+    }
+}
+
+
+@media (max-width:800px){
+    .Home{
+        height: 80vh;
+    }
+
+    .Home-div h1{
+        position: absolute;
+        /* content: ''; */
+        z-index: 1;
+        /* text-align: center; */
+    }   
+
+    .homePic{
+        max-height: 75vh;
+        background-image: url("./came.avif");
+        background-position: center ;
+        background-size: cover ;
+    }
+
+    #parallax-mrg{
+        height: 70vh;
+        background-position: center;
+    }
+}

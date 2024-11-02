@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.embed_section1{
+  font-family: "Hanken Grotesk", sans-serif;
+  
+}
+.embed_section1 .embed_sec1div1{
+  height: auto;
+  background-color: #007664;
+  color: white;
+  border-radius: 0 5vh 0 5vh ;
+  padding: 3vh 0vw 0vh 4vw;
+
+}
+
+.embed_sec1div1 h1{
+  font-size: 1.5rem;
+}
+
+.embed_sec1div1 h3{
+  padding: 3vh 3vw 0vh 0vw;
+  font-size: 1.2rem;
+}
+.embed_sec1div1 p{
+  text-align: justify;
+  padding: 2vh 3vw 3vh 0vw;
+}
+.Embed_modulesection li{
+  list-style: none;
+  padding: 1vh 0vw 0vh 0vw;
+}
+
+.Embed_modulesection{
+  display: flex;
+  justify-content: space-between;
+}
+.Embed_modulesection a{
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  padding: .5vh 1vw .5vh 1vw;
+  border-radius: 0vh 1vw 0vh 0vw;
+  transition: .5 ease-out;
+}
+.Embed_modulesection p{
+  color: white;
+  
+}
+.Embed_modulesection a:hover{
+  background-color: rgb(255, 255, 255);
+
+  color:#007664;
+}
+
+ .embed_sec1div2{
+  height: auto;
+  margin-top: 1vh;
+  border-radius: 5vh 0 5vh 0;
+  box-shadow: 5px 0px 10px 5px rgb(238, 234, 241);
+}
+
+.fullsatckimage{
+  border-radius: 3vh 0 0vh 0 ;
+}
+.embed_sec1div2 .fsd_sec1div2para{
+  font-size: large;
+  font-weight: 600;
+}
+
+.embed_sec1div2 span{
+  color: gray;
+}
+
+.AnimatedButton {
+  margin-bottom: 2vh;
+}
+
+
+
+
+/*  sm (phones) */
+
+@media screen and (max-width: 480px) {
+
+  .embed_sec1div1 p {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .embed_modulesection li {
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+  .embed_sec1div2  {
+    width: 100%;
+  }
+  .embed_sec1div2 span{
+    color: gray;
+  
+  }
+  .embed_sec1div2 p {
+    margin-bottom: 1vh;
+  }
+
+
+
+
+  
+}
+
+/* md (tablets) */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  
+  .embed_modulesection li {
+
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+  .embed_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+  .embed_sec1div2  {
+
+    width: 70%;
+    margin-left: 15%;
+  }
+
+
+
+
+ 
+}
+
+
+/*  lg (desktops) */
+
+@media screen and (min-width: 769px) and (max-width: 1023px){
+  
+  .embed_modulesection li {
+
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+
+  .embed_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+  .embed_sec1div2  {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+
+
+ 
+}
+
+/*  xl (large) */
+
+@media screen and (min-width: 1024px) {
+
+
+  .fsd_modulesection li {
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+
+  .fsd_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+
+
+}
+
+
+
+

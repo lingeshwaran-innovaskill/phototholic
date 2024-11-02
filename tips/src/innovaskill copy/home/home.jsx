@@ -1,0 +1,30 @@
+import Banner from "./banner/banner";
+import Navigation from "../nav/navigation";
+import Welcome from "./welcome/welcome";
+import Technologies from "./Tech/tech";
+import OwnContent from "./insContent/innova";
+import Locate from "./map&form/location";
+import ParticlesComponent from "../particles/particles";
+import Footer from "../footer/footer";
+import Enquiry from "../enquiryForm/enquiry";
+import Review from "./googleReview/review";
+
+
+
+
+function Home() {
+
+    return (<>
+    <Navigation/>
+    <Banner/>
+    <Welcome/>
+    <Technologies/>
+    {/* <OwnContent/> */}
+    <Review/>
+    <Locate/>
+    <Footer/>   
+    </>);
+}
+
+export default Home;
+

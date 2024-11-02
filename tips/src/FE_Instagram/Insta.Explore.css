@@ -1,0 +1,139 @@
+
+.Explore-main-div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.Explore-body-right{
+    margin-left: 20vw;
+    width: 84vw;
+    height:100vh;
+    background-color: black;
+}
+
+.Explore-media{
+    padding: 4vh 4vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 5px;
+    height: fit-content;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:  'one two three'
+                          'four five three'
+                          'six seven eight'
+                          'six nine ten' 
+                          'eleven twelve thteen'
+                          'frteen fifteen thteen'  ;
+    background-color: black;
+}
+
+.Explore-media #mediaid-0{
+    grid-area: one;
+}
+.Explore-media #mediaid-1{
+    grid-area: two;
+}
+.Explore-media #mediaid-2{
+    grid-area: three;
+}
+.Explore-media #mediaid-3{
+    grid-area: four;
+}
+.Explore-media #mediaid-4{
+    grid-area: five;
+}
+.Explore-media #mediaid-2 video ,#mediaid-5 video , #mediaid-12 video{
+    height: 100vh;
+}
+.Explore-media #mediaid-5{
+    grid-area: six;
+}.Explore-media #mediaid-6{
+    grid-area: seven;
+}.Explore-media #mediaid-7{
+    grid-area: eight;
+}.Explore-media #mediaid-8{
+    grid-area: nine;
+}.Explore-media #mediaid-9{
+    grid-area: ten;
+}.Explore-media #mediaid-10{
+    grid-area: eleven;
+}.Explore-media #mediaid-11{
+    grid-area: twelve;
+}.Explore-media #mediaid-12{
+    grid-area: thteen;
+}.Explore-media #mediaid-13{
+    grid-area: frteen;
+}.Explore-media #mediaid-14{
+    grid-area: fifteen;
+}
+
+
+
+.Media-content{
+    padding: 1vh 0;
+}
+
+.Media-content video{
+    width: 23vw;
+    height: 50vh;
+    cursor: pointer;
+    /* box-shadow: 0 0 1px whitesmoke; */
+    /* border-radius: 2px; */
+    /* transform: scaleX(1);
+    animation: videoWipe 1s ease-in-out 1;
+    animation-delay: 5s; */
+}
+
+.Media-content img{
+    width: 20vw;
+    height: 50vh;
+    cursor: pointer;
+}
+
+/* 
+@keyframes videoWipe{
+    0%{
+        transform-origin:left;
+        transform: scaleX(0);
+    }
+    100%{
+        transform-origin:left;
+        transform: scaleX(1);
+    }
+} */
+
+.Media-content .likes-comments{
+    position: absolute;
+    visibility: hidden;
+}
+
+.Media-content .likes-comments i{
+    font-size: 1.2rem;
+    margin: 0 .5vw;
+    color: whitesmoke;
+}
+
+.likes-comments i span{
+    font-size: 1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Media-content video:hover , .Media-content img:hover{
+    opacity: .5;
+}
+
+.Media-content:hover .likes-comments {
+    display: block;
+    visibility: visible;
+    transform: translate(6vw, -32vh);
+}
+
+#mediaid-2 .likes-comments , #mediaid-5 .likes-comments , #mediaid-12 .likes-comments{
+    /* height: 100vh; */
+    transform: translate(5vw, -55vh);
+}

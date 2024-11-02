@@ -1,0 +1,195 @@
+
+
+.Merncertificate{
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.fsd_section5 h1{
+    color: #007664;
+    padding-left: 4vw;
+    margin-top: 3vh;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .fsd_section5 img{
+    /* margin-left: 10vw; */
+    /* width: 80%; */
+    /* box-shadow: 0px 0px 10px 5px #007664; */
+    box-shadow: 0px 0px 10px #007664;
+    
+  }
+  .fsd_section4content .fsd_section5-para{
+    padding-top: 4vh;
+  }
+  
+  
+  .fsd_section6 h1{
+    color: #007664;
+    margin: 3vh 0vw 4vh 4vw;
+    font-size: 1.5rem;
+    /* padding-left: 4vw; */
+    /* margin: 4vh 0vw 3vh 0vw; */
+    font-weight: 700;
+  
+  
+  }
+  .fsd_section6 img{
+    /* margin: 0vh 0vw 0vh 15vw; */
+    /* height: 45vh; */
+    /* width: 70%; */
+    /* box-shadow: 0px 0px 10px 5px #007664; */
+    box-shadow: 0px 0px 10px #007664;
+
+  
+  }
+  
+  
+  .fsd_section7{
+    /* display: flex;
+    justify-content: space-evenly; */
+  }
+  .fsd_section7h1{
+    color: #007664;
+    margin: 3vh 0vw 0vh 4vw;
+    font-size: 1.5rem;
+    font-weight: 700;
+  
+  }
+  .fsd_section7 h3{
+    /* color: #007664; */
+    margin: 3vh 0vw 4vh 4vw;
+    /* font-size: 1.3rem; */
+  
+  }
+  .fsd_section7 img{
+    /* height: 80vh;
+    width: 30vw; */
+    /* margin: 3vh 0vw 4vh 4vw; */
+  
+  }
+  .fsd_section7 img:hover{
+    /* height: 90vh; */
+    /* width: 65vh; */
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+  }
+  .fsd_section7img1{
+    box-shadow:  3px 2px 4px black;
+  
+  }
+  .fsd_section7img2{
+    box-shadow:  -3px 2px 4px  black;
+  
+  }
+ 
+  /* *, ::after, ::before {
+    box-sizing: border-box;
+  } */
+
+
+
+
+
+
+/*  sm (phones) */
+
+@media only screen and (max-width: 765px) {
+
+  .fsd_section5 h1 {
+    /* font-size: 1rem; */
+  }
+  .fsd_section6 h1 {
+    /* font-size: 1rem; */
+  }
+  .fsd_section7h1  {
+    /* font-size: 1rem; */
+  }
+  .fsd_section7 h3 {
+    /* font-size: 15px; */
+    margin-right: 2vw;
+    text-align: center;
+  }
+  .fsd_section5 img {
+    width: 100%;
+    /* margin-left: 5%; */
+  }
+  .fsd_section6 img {
+    width: 100%;
+    
+    /* margin-left: 5%; */
+  }
+  .fsd_section7img1 {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .fsd_section7img2 {
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+/* md (tablets) */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+  .fsd_section5 img {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .fsd_section6 img {
+    width: 80%;
+    height : 30vh;
+    margin-left: 10%;
+  }
+  .fsd_section7img1 {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .fsd_section7img2 {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+}
+
+/*  lg (desktops) */
+
+
+@media only screen and (min-width: 1025px) {
+
+  .fsd_section5 img {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .fsd_section6 img {
+    width: 80%;
+    height : 50vh;
+    margin-left: 10%;
+  }
+  .fsd_section7img1 {
+    /* width: 80%;
+    height: 100%; */
+    height: 80vh;
+    width: 25vw;
+    margin-left: 10%;
+  }
+  .fsd_section7img2 {
+    /* width: 80%;
+    height: 100%; */
+    height: 80vh;
+    width: 25vw;
+    margin-left: 10%;
+  }
+  .fsd_section7 h3 {
+    font-size: 1.2rem;
+  }
+
+}
+
+
+
+
+
+
+

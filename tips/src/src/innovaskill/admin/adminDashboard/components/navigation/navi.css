@@ -1,0 +1,59 @@
+/* 
+.admin-navigation table , .admin-navigation tr , .admin-navigation th ,.admin-navigation td {
+    border: 2px dotted rgb(255, 153, 0);
+} */
+
+.admin-navigation th{
+    font-size: 700;
+}
+
+.admin-nav-update{
+
+    .nav-update-back a{
+        text-decoration: none;
+        color: #fff;
+        background-color: #060b26;
+        border-radius: 10px;
+        font-weight: 600;
+        box-shadow: 1px 2px 3px black;
+        transition: .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    }
+
+    .nav-update-back a:hover{
+        background-color: #fff;
+        color: #060b26;
+    }
+
+}
+
+.admin-navigation{
+    .table .edit a{
+        text-decoration: none;
+        background-color: #ff9421;
+        color: #fff;
+        font-weight: 600;
+        border-radius: 10px;
+        box-shadow: 1px 2px 3px #060b26;
+        transition: .2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+        padding: .3vh 0;
+    }
+    .table .edit a:hover{
+        background-color: #fff;
+        color: #ff9421;
+    }
+
+    .table .edit button{
+        border: none;
+        background-color: red;
+        border-radius: 10px;
+        color: #fff;
+        font-weight: 600;
+        padding: .3vh 0;
+        box-shadow: 1px 2px 3px #060b26;
+        transition: .3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    .table .edit button:hover{
+        background-color: #fff;
+        color: red;
+    }
+}

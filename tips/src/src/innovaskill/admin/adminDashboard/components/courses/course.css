@@ -1,0 +1,163 @@
+.admin-course-table .table{
+    height: 40vh;
+}
+
+.admin-course-table .table-head a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    background-color: #060b26;
+    border-radius: 15px;
+    transition: .5s ease;
+}
+
+.admin-course-table .table-head a:hover{
+    color: #ff9421;
+}
+
+.table-body .update , .table-body .delete{
+    font-size: .8rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px black;
+    transition: .3s ease;
+}
+
+.table-body .update{
+    text-decoration: none;
+    background-color: #EF9B41;
+}
+.table-body .update:hover{
+    background-color: #fff;
+    color: #EF9B41;
+}
+
+.table-body .delete{
+    background-color: red;
+}
+.table-body .delete:hover{
+    background-color: #fff;
+    color: red;
+}
+
+.course-upload form input{
+    border: none;
+    outline: none;
+    background-color: #060b26;
+    box-shadow:0px 0px 3px #060b26;
+    border-radius: 10px;
+    color: #fff;
+}
+.course-upload form input::placeholder{
+    color: #fff;
+}
+
+.course-upload form input::-webkit-file-upload-button{
+    background-color: #ff9421;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+
+/* .course-upload form input[type=file]{
+    display: none;
+} */
+/* 
+.course-upload form  label{
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    color: #fff ;
+    background-color: #060b26;
+    box-shadow: 1px 2px 3px #060b26;
+    border-radius: 10px;
+    transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.course-upload form  label:hover{
+    color: #ff9421;
+} */
+
+.course-upload form button{
+    border: none;
+    background-color: #ff9421;
+    color: #060b26;
+    font-weight: 600;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px #ff9421;
+    letter-spacing: 1px;
+    transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.course-upload form button:hover{
+    background-color: #060b26;
+    color: #ff9421;
+    box-shadow: none ;
+}
+
+.course-upload form button:active{
+    transform: scale(.99);
+}
+
+.setWidth{
+    width:50%;
+}
+
+.setWidth img{
+    width: 100%;
+}
+
+
+
+
+
+
+/* update page  */
+
+.updating-course .form-back-btn a{
+    background-color: #060b26;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: 1px 2px 3px #060b26;
+    color: #fff;
+    transition: .3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.updating-course .form-back-btn a:hover{
+    background-color: #fff;
+    color: #060b26;
+}
+.updating-course .form-back-btn a:active{
+    transform: scale(.9);
+}
+
+.updating-course{
+    height: 80vh;
+}
+
+.updating-course form input , .updating-course form textarea{
+    border-radius: 10px;
+    border: 2px solid #060b26;
+    outline: none;
+    resize: none;
+}
+
+.updating-course form button{
+    border: none;
+    border-radius: 10px;
+    color: #EF9B41;
+    background-color: #060b26;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.updating-course form button:hover{
+    background-color: #EF9B41;
+    color: #060b26;
+}

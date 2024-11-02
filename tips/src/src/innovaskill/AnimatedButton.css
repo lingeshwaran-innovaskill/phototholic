@@ -1,0 +1,184 @@
+.btn-7 {
+  color: rgb(0, 0, 0);
+}
+
+.btn-7:hover {
+  background-color: white;
+  /* color: white; */
+  color: rgb(0, 0, 0);
+}
+
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: blue;
+  color: rgb(0, 0, 0);
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px
+    white,
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+.btn-7 {
+  background-color: rgb(0, 0, 255);
+  color: rgb(0, 0, 0);
+  /* font-size: 1rem; */
+  /* font-size: 10px; */
+    /* line-height: 42px; */
+  padding: 0;
+  border: none;
+  border-radius: 1vh 0 1vh 0;
+}
+
+.btn-7 span{
+    /* position: relative;
+    display: block; */
+    /* color: #fff; */
+    width: 100%;
+    height: 100%;
+    color: rgb(254, 109, 109);
+  }
+
+  .btn-7:before,
+  .btn-7:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: rgb(34, 34, 255);
+    color: rgb(0, 0, 0);
+
+    box-shadow:
+     -7px -7px 20px 0px white,
+     -4px -4px 5px 0px white,
+     7px 7px 20px 0px rgba(0,0,0,.2),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+  }
+  .btn-7:before{
+     height: 0%;
+     width: 2px;
+     /* color: white; */
+     color: rgb(0, 0, 0);
+    }
+  .btn-7:after {
+    width: 0%;
+    height: 2px;
+    /* color: white; */
+    color: rgb(0, 0, 0);
+
+  }
+  .btn-7:hover{
+    color: rgb(34, 34, 255);
+    background: transparent;
+    color: rgb(0, 0, 0);
+  }
+  .btn-7:hover:before {
+    height: 100%;
+    color: rgb(0, 0, 0);
+  }
+  .btn-7:hover:after {
+    width: 100%;
+    color: rgb(0, 0, 0);
+  }
+
+  .btn-7 span:before,
+  .btn-7 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background:rgb(34, 34, 255);
+    color: rgb(0, 0, 0);
+
+    box-shadow:
+     -7px -7px 20px 0px rgba(255,255,255,.9),
+     -4px -4px 5px 0px rgba(255,255,255,.9),
+     7px 7px 20px 0px rgba(0,0,0,.2),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+  }
+  .btn-7 span:before {
+    width: 2px;
+    height: 0%;
+    color: rgb(255, 255, 255);
+  }
+  .btn-7 span:after {
+    height: 2px;
+    width: 0%;
+    color: rgb(255, 255, 255);
+  }
+  .btn-7 span:hover:before {
+    height: 100%;
+    color: black;
+  }
+  .btn-7 span:hover:after {
+    width: 100%;
+    color: rgb(0, 0, 0);
+
+  }
+  
+  /* button span {
+    color: white;
+  } */
+
+  #btn-7button .tex:hover{
+    color: black;
+  }
+
+  
+  #btn-7button .tex{
+    color: white;
+  }
+
+
+
+
+  
+/*  sm (phones) */
+
+@media only screen and (max-width: 765px) {
+
+    .btn-7{
+      width: 40%;
+      margin-left: 5%;
+    }
+}
+
+/* md (tablets) */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  .btn-7{
+    width: 40%;
+    margin-left: 5%;
+
+  }
+}
+
+
+/*  lg (desktops) */
+
+@media only screen and (min-width: 1025px) {
+
+  .btn-7{
+    width: 40%;
+    margin-left: 5%;
+    height: 95%;
+    color: white;
+  }
+
+}
+
+
+

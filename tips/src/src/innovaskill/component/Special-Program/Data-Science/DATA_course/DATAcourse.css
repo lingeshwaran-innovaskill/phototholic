@@ -1,0 +1,185 @@
+
+.dl_syllabusfullsection{
+    /* background-image: linear-gradient(to right, #007664,rgb(245, 228, 198)); */
+    background-color: rgb(255, 247, 233);
+    border-radius: 0 5vh 0 5vh ;
+    margin: 10px;
+    margin-top: 60px;
+    box-shadow: 5px 0px 15px 10px rgb(238, 234, 241);
+    padding: 5vh 0vw 5vh 0vw; 
+    font-family: "Hanken Grotesk", sans-serif;
+
+    }
+    .dl_section3{
+      /* margin: 5vh 10vw 0vh 10vw; */
+      /* background-image: ; */
+      color: #007664;
+      
+    }
+    /* .fsd_section3 h1{
+    } */
+    
+    .dl_section3 ul{
+      /* text-align: justify; */
+      color: white;
+      padding-left: 3vw;
+    }
+    
+    .dl_section3 b{
+      color: white;
+      /* padding: 10vh 0vw 2vh 0vw; */
+      /* padding-top: 5vh; */
+    }
+    .dl_section3 div{
+     
+      margin-bottom: 2vh;
+    }
+    .dl_section3 summary{
+      /* background-color: rgb(255, 255, 255); */
+      color: black;
+      cursor: pointer;
+      padding-left: 5vh;
+    }
+    .dl_syllabus{
+      /* margin-left: 2vw; */
+      color: #007664;
+      font-size: 1.5rem;
+      font-weight: 700;
+    
+    }
+    
+    
+    
+    .dl_Python_section {
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 0px 10px 0px 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    
+    }
+    .dl_Python_section div{
+      padding: 10px 20px 0px 20px; 
+    }
+    
+    .dl_Structured_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .dl_Structured_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .dl_NumericalPython_section {
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    
+    }
+    .dl_NumericalPython_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .al_Matplotlib_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .al_Matplotlib_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .al_Pandas_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .al_Pandas_section div{
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .al_MachineLearning_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .al_MachineLearning_section div{
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .al_DeepLearning_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .al_DeepLearning_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+
+
+
+    
+
+
+
+/*  sm (phones) */
+    
+@media only screen and (max-width: 480px) {
+  .dl_section3 summary  {
+    /* text-align: start; */
+    margin: 0 auto;
+    margin-left: 5vw;
+    /* font-size: 19px; */
+    /* display: block;  */
+  }
+  .dl_syllabusfullsection {
+    background-color: white;
+    margin: 0px;
+  }
+  .dl_section3 ul {
+    /* font-size: 15px; */
+
+  }
+  .c_syllabus {
+    /* font-size: 1rem; */
+  }
+}
+
+/* md (tablets) */
+
+@media only screen and  (min-width: 481px) and (max-width: 768px)  {
+  
+}
+
+/*  lg (desktops) */
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+
+  .dl_section3 summary {
+      padding-left: 5vh;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px)  {
+
+  .dl_section3 summary {
+      padding-left: 5vh;
+    }
+
+}

@@ -1,0 +1,299 @@
+
+.Python_syllabusfullsection{
+    /* background-image: linear-gradient(to right, #007664,rgb(245, 228, 198)); */
+    background-color: rgb(255, 247, 233);
+    border-radius: 0 5vh 0 5vh ;
+    margin: 10px;
+    box-shadow: 5px 0px 15px 10px rgb(238, 234, 241);
+    padding: 5vh 0vw 5vh 0vw; 
+    font-family: "Hanken Grotesk", sans-serif;
+
+    }
+    .Python_section3{
+      /* margin: 5vh 10vw 0vh 10vw; */
+      /* background-image: ; */
+      color: #007664;
+      
+    }
+    /* .fsd_section3 h1{
+    } */
+    
+    .Python_section3 ul{
+      /* text-align: justify; */
+      color: white;
+      padding-left: 3vw;
+    }
+    
+    .Python_section3 b{
+      color: white;
+      /* padding: 10vh 0vw 2vh 0vw; */
+      /* padding-top: 5vh; */
+    }
+    .Python_section3 div{
+     
+      margin-bottom: 2vh;
+    }
+    .Python_section3 summary{
+      /* background-color: rgb(255, 255, 255); */
+      color: black;
+      cursor: pointer;
+      padding-left: 5vh;
+    }
+    .Python_syllabus{
+      /* margin-left: 2vw; */
+      color: #007664;
+      font-size: 1.5rem;
+      font-weight: 700;
+    
+    }
+    
+    
+    
+    .Python_Introduction_section {
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 0px 10px 0px 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    
+    }
+    .Python_Introduction_section div{
+      padding: 10px 20px 0px 20px; 
+    }
+    
+    .python_Installationprocess_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_Installationprocess_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .python_BasicofPython_section {
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    
+    }
+    .python_BasicofPython_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .Python_Commandt_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Python_Commandt_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .python_DataTypes_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_DataTypes_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .python_Operators_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_Operators_section div{
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .python_ControlStatements_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_ControlStatements_section div{
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .python_DataStruture_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_DataStruture_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .python_Strings_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_Strings_section div{
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .python_List_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_List_section div{
+      padding: 10px 20px 0px 40px;
+    }
+    
+    .python_Tuples_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_Tuples_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .python_Dictionary_section{
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_Dictionary_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+    .python_set_section {
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .python_set_section div{
+      padding: 10px 20px 0px 20px;
+    }
+      
+    .Python_Function_section {
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Python_Function_section div{
+      padding: 10px 20px 0px 20px;
+    }
+      
+    .Python_oops_section {
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Python_oops_section div{
+      padding: 10px 20px 0px 20px;
+    }
+      
+    .Python_ExceptionHandling_section {
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Python_ExceptionHandling_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+
+    .Files_in_Python_section {
+      /* display: flex;
+      justify-content: space-between; */
+      background-color: #007664;
+      padding: 10px;
+      border-radius: 0vh 4vw 0vh 4vw ;
+    }
+    .Files_in_Python_section div{
+      padding: 10px 20px 0px 20px;
+    }
+    
+
+
+
+
+
+
+
+    
+
+
+
+/*  sm (phones) */
+    
+@media only screen and (max-width: 480px) {
+  .Python_section3 summary  {
+    /* text-align: start; */
+    margin: 0 auto;
+    margin-left: 5vw;
+    /* font-size: 19px; */
+    /* display: block;  */
+  }
+  .Python_syllabusfullsection {
+    background-color: white;
+    margin: 0px;
+  }
+  .Python_section3 ul {
+    /* font-size: 15px; */
+
+  }
+  .Python_syllabus {
+    /* font-size: 1rem; */
+  }
+}
+
+/* md (tablets) */
+
+@media only screen and  (min-width: 481px) and (max-width: 768px)  {
+  
+}
+
+/*  lg (desktops) */
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+
+  .Python_section3 summary {
+      padding-left: 5vh;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px)  {
+
+  .c_section3 summary {
+      padding-left: 5vh;
+    }
+
+}

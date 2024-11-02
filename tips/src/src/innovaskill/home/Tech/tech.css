@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+.tech-head h1{
+    font-size:1.8rem;
+    letter-spacing:2px; 
+    color: #014d41;
+}
+
+.tech-div{
+    background-color: #eef4f4;
+    box-shadow: 1px 1px 3px black;
+    border-top-left-radius:4em;
+}
+
+.tech-div .tech-img{
+    height: 27vh;
+}
+
+.tech-div img{
+    width: 100%;
+}
+
+.tech-div , .tech-div img{
+    border-top-left-radius:4em;
+}
+
+.tech-content h3{
+    height: 8vh;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #00a876;
+}
+
+.tech-content p{
+    height: 20vh;
+    overflow: hidden;
+    color: #0b5247;
+    text-align: justify;
+}
+
+.tech-content a{
+    height: 8vh;
+    margin: 5vh 0;
+    color:#00a876;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.tech-content a:hover{
+    color: aquamarine;
+}
+
+#style-radius , #style-radius img{
+    border-radius: 0 4rem 0 0;
+}
+
+@media (max-width:1200px) {
+    .tech-content h3{
+        height: 13vh;
+    }
+}
+
+@media (max-width:1000px) {
+    .tech-div .tech-img{
+        height: 20vh;
+    }
+
+    .tech-content h3{
+        height: 6vh;
+    }
+    .tech-content p{
+        height:6vh;
+    }
+}
+
+@media (max-width:600px) {
+  
+    .tech-div{
+        border-radius:  20px 0 20px 0;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px; */
+    }
+    .tech-div .tech-img{
+        height: fit-content;
+    }
+    .tech-div .tech-img img{
+        width: 100%;
+    }
+    .tech-content img , #style-radius img{
+        border-radius:20px 0 0 0;
+        box-shadow: 0 3px 3px black;
+    }
+    #style-radius {
+        border-radius:  20px 0 20px 0;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    .tech-content h3{
+        font-size: 1.2rem;
+    }
+    .tech-content p{
+        height: 17vh;
+        color: #0b5247;
+        text-align: justify;
+    }
+}
+
+@media (min-height:1600px) {
+        
+    .tech-div .tech-img{
+        height: 13vh;
+    }
+
+    .tech-content h3{
+        height: 4vh;
+    }
+
+    .tech-content p{
+        height:5vh;
+    }
+}

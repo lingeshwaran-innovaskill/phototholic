@@ -1,0 +1,112 @@
+.Insta-nav{
+    color: rgb(255, 255, 255);
+    width: 16vw;
+    height: 100vh;
+    box-shadow: 0 0 5px rgb(56, 56, 56);
+    position:fixed;
+    background-color: #000000;
+    transform: scaleY(1);
+    transition: wipe1 1s ease-in-out 1;
+    padding:2vh 1vw;
+}
+
+@keyframes wipe1{
+    0%{
+        transform-origin: top;
+        transform: scaleY(0);
+    }
+    100%{
+        transform-origin:top;
+        transform: scaleY(1);
+    }
+}
+
+.Insta-nav h1{
+    font-size: 1.7rem;
+    margin: 5vh 1vw;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Nav-div ul li , .nav-popup ul li{
+    color: white;
+    list-style: none;
+    width: 13vw;
+    padding: 2vh 0;
+    margin:1vh 0;
+    border-radius: 10px;
+    padding-left: 1vw;
+    cursor: pointer;
+}
+
+.Nav-div ul li:hover {
+    background-color: rgba(58, 55, 55, 0.321);
+}
+.nav-popup ul li:hover{
+    background-color: rgb(67, 68, 68);
+}
+.Nav-div ul li i , .nav-popup ul li i{
+    font-size: 1.4rem;
+    margin-right:1vw;
+    transition: .1s ease-in-out;
+}
+.Nav-div ul li span , .nav-popup ul li span{
+    font-size: .9rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Nav-div ul li:hover i{
+    transform: scale(1.1);
+}
+.Nav-div ul li:active , .nav-popup ul li:active{
+    opacity: .5;
+}
+
+.active{
+    font-weight: 600;
+}
+.active i{
+    transform: scale(1.1);
+}
+
+.Nav-div ul li:nth-last-child(1){
+    margin: 3vh 0;
+}
+
+.nav-popup{
+    position: fixed;
+    padding: 1vh 1vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 18vw;
+    height: 70vh;
+    background-color: rgb(44, 43, 43);
+    border-radius: 10px;
+    transform: translate(1vw , 16vh);
+}
+
+.popup-nav{
+    transform: scaleY(1);
+    animation: navpopup .2s ease-in-out 1;
+}
+
+@keyframes navpopup {
+    0%{
+        transform-origin: bottom;
+        transform: scaleY(0);
+    }
+    100%{
+        transform-origin: bottom;
+        transform: scaleY(1);
+    }
+}
+
+.nav-popup ul li{
+    width: 17vw;
+}
+
+.nav-popup ul li:nth-last-child(1){
+    border-top: 2px solid rgb(65, 65, 65);
+}
+
+

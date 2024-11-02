@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+}
+#header h2 {
+    float:inline-start;
+    font-size: 20px;
+    text-align: center;
+    color: teal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    /* text-shadow: 0px 0px 5px bisque; */
+}
+
+
+.game{
+    margin-left:22rem;
+    margin-top: 8rem;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    width: 40rem;
+    height: 25rem;
+    border-radius: 5px;
+    color:black;
+    text-align: center;
+    background-color: white;
+}
+
+input {
+    width: 15rem;
+    height: 2rem;
+    margin-top: 10px;
+    background-color: black;
+    color: bisque;
+    border: none;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.game button{
+   width: 18rem;
+   height: 2rem;
+   margin-top: 5px;
+   background-color: teal;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 15px;
+   color: white;
+   font-weight: bolder;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head{
+    color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#count{
+    float: right;
+    width: 3rem;
+    height: 3rem;
+    background-color: teal; 
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.content h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+}
+
+
+
+     /* main page */
+
+
+#main{
+    margin-top: 3rem;
+    margin-left: 10rem;
+    /* background-color: aqua; */
+    width: 60rem;
+    height: 35rem;
+    text-align: center;
+    border-radius: 20px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#main:hover{
+    box-shadow: 0px 0px 10px aqua;
+}
+
+#main h1{
+    color: black;
+    font-size: 50px;
+
+}
+#main:hover h1{
+    color: bisque;
+    text-shadow: 0px 0px 10px beige;
+    font-size: 50px;
+}
+
+#main button{
+  margin-top: 15rem;
+  width: 10rem;
+  height:3rem;
+  transition: 300ms;
+  background-color: teal;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px bisque;
+  font-size: 15px;
+  font-weight: bolder;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+#main button:hover{
+    transform: scale(0.99);
+}

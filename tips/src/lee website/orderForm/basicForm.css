@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.book-div{
+    margin: 10vh 0;
+}
+
+.main-book{
+    /* width: 100%; */
+    height: fit-content;
+    margin: 5vh 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 0 5px black; */
+    border-radius: 10px;
+}
+
+#book-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.book-title{
+    width: 100%;
+    height: 100%;
+}
+
+#book-h1{
+    text-align: center;
+    color: #09405a;
+    margin: 5vh 0;
+    font-family: 'Tenor Sans', sans-serif;
+    letter-spacing: 5px;
+    /* color:rgb(255, 167, 53); */
+    text-shadow: 0 0 1px black;
+    font-size: 2.5rem;
+}
+
+.book-ele {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-form{
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.book-ele label{
+    font-weight: bolder;
+}
+.book-ele p{
+    height: 2vh;
+}
+
+.book-ele input{
+    width: 20vw;
+    min-height: 3vh;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 3px 5px black;
+    background-color: #042331;
+    color: whitesmoke;
+    border: none;
+}
+
+.book-ele input::placeholder{
+    color: #fff;
+}
+
+.book-ele textarea{
+    border-radius: 10px;
+    padding: 10px;
+    resize: none;
+    background-color: #042331;
+    border: none;
+    box-shadow: 0 3px 5px black;
+    color: white;
+}
+
+.ele{
+    margin: .5vh 0;
+}
+
+.ele1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ele1 .ele{
+    margin: 0 .2vw;
+}
+
+.ele1 input{
+    width: 9vw;
+    margin: 0 0vw;
+}
+
+.ele p{
+    color: red;
+}
+
+.book-ele button{
+    cursor: pointer;
+    width: 15vw;
+    height: 5vh;
+    /* padding: 10px; */
+    border-radius: 10px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin: 1vh 0;
+    /* background-color:rgb(255, 167, 53); */
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+.book-ele button:hover{
+    background-color: #042331;
+    color: aliceblue;
+}
+
+.book-ele button:active{
+    box-shadow: none;
+}
+
+.book-quotes {
+    height: 80%;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.book-quotes h2{
+    color:rgb(255, 167, 53);
+    /* color: #09405a; */
+    text-shadow: 0 0 1px black;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    /* transform: rotate(-20deg); */
+    transition: 2s ease-in-out;
+}
+
+@media (max-width:1000px){
+
+    /* .main-book{
+        display: block;
+    } */
+
+    .book-ele input{
+        width: 30vw;
+    }
+
+}
+
+@media (max-width:700px) {
+    .main-book , .ele1{
+        flex-direction: column;
+    }
+    .book-ele {
+        justify-content: start;
+        align-items: start;
+    }
+    .book-ele input{
+        min-width: 40vw;
+    }
+}

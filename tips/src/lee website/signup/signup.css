@@ -1,0 +1,244 @@
+:root{
+    --primary-color:#0e4057;
+}
+
+/* fonts for quotes  */
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+    /* font-family: 'Marck Script', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.intro img{
+    width : 30%;
+    height: 30%;
+}
+
+.Main-login img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.Main-login{
+    height: 100vh;
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fugaz One', cursive;
+    transition:  1s ease-in-out;
+}
+
+#title1{
+    color:#fdfdfd;
+    text-shadow: 0 0 1.5px rgb(0, 0, 0);
+
+}
+
+.login{
+    height: 70vh;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* box-shadow: 0 0 5px black; */
+    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, 0.452); */
+    margin: 5vh 0;
+    transition: 1s ease-in-out;
+    transform: translateX(-20vw);
+}
+
+.login h3{
+    letter-spacing: 2px;
+    color:#ffffff54;
+    font-size: medium;
+    text-shadow: 0 .5px rgba(0, 0, 0, 0.308);
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.795);
+    transition: 1s ease-in-out;
+    margin:10vh 0;   
+}
+
+.form input{
+    width: 18vw;
+    height: 5vh;
+    padding: 0 1vw;
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.411);
+    background-color: #ffffff10;
+    border: none;
+    border-radius: 5px;
+    outline:none;
+    caret-color: teal;
+}
+
+.form input::placeholder{
+    color: black;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* .form input:focus{
+    background-color: #4aaad641;
+} */
+
+.form p{
+    color: red;
+    height: 4vh;
+}
+
+.form button{
+    width: 10vw;
+    height: 5vh;
+    /* margin-top: 5vh; */
+    margin-left: 4vw;
+    border-radius: 5px;
+    background: var(--primary-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 0 5px  black;
+    color: white;
+    cursor: pointer;
+    transition: 200ms
+}
+
+.form button:active{
+    box-shadow: 0 0 3px black;
+}
+
+.form h5{
+    text-align: center;
+    margin-bottom: 1vh;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-shadow: 0 0 2px #0e4057; */
+}
+
+.form h5 a{
+    color: rgb(255, 255, 255);
+}
+
+.form button:hover{
+    border-radius: 20px;
+}
+
+.welcome{
+    width: 100%;
+    height: 100%;
+    background: #0e4057;
+    border-bottom-right-radius:20px ;
+    border-top-right-radius:20px ;
+    border-top-left-radius:10rem ;
+    border-bottom-left-radius:10rem;
+    box-shadow: 0 0 2px black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome button{
+    margin:5vh 0;
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(255, 136, 0);
+    box-shadow: 0 0 5px #021b27;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    font-weight: bolder;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    cursor: pointer;
+    transition: all .2s ease-in ;
+}
+
+.welcome button:hover{
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid rgb(255, 136, 0);
+}
+
+#welcome h3{
+    color: white;
+}
+
+#welcome a{
+    color: black;
+}
+
+.quotes {
+    position: absolute;
+    transform: translateY(20vh);
+    font-family: 'Pinyon Script', cursive;
+    margin-left:10vw;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 25vw;
+    letter-spacing: 2px;
+    color: rgba(255, 228, 196, 0.315);
+}
+
+@media (max-width:800px) {
+
+    .intro img{
+        width : 35%;
+        height: 35%;
+    }
+
+    .form  button{
+        margin-left: 5vw;
+    }
+
+    .login{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login input{
+        width: 35vw;
+    }
+
+    .welcome{
+        display:none;
+    }
+
+    .Main-login button{
+        width: 20vw;
+    }
+
+    .form input{
+        background-color: transparent;
+        border-bottom: 1px solid black;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.685)
+        /* border: none */
+    }
+
+}

@@ -1,0 +1,19 @@
+*{
+  font-family: "Hanken Grotesk" , sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+    user-select: none !important;
+}
+
+img{
+  -webkit-user-drag: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}

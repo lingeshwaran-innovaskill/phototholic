@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+.ccna_section1{
+  font-family: "Hanken Grotesk", sans-serif;
+
+}
+.ccna_section1 .ccna_sec1div1{
+  height: auto;
+  background-color: #007664;
+  color: white;
+  border-radius: 0 5vh 0 5vh ;
+  padding: 3vh 0vw 0vh 4vw;
+}
+
+.ccna_sec1div1 h1{
+  font-size: 1.5rem;
+}
+
+.ccna_sec1div1 h3{
+  padding: 3vh 3vw 0vh 0vw;
+  font-size: 1.2rem;
+}
+.ccna_sec1div1 p{
+  text-align: justify;
+  padding: 2vh 3vw 3vh 0vw;
+}
+.ccna_modulesection li{
+  list-style: none;
+  padding: 1vh 0vw 0vh 0vw;
+}
+.ccna_modulesection{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ccna_modulesection a{
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  padding: .5vh 1vw .5vh 1vw;
+  border-radius: 0vh 1vw 0vh 0vw;
+  transition: .5 ease-out;
+}
+.ccna_modulesection p{
+  color: white;
+  
+}
+.ccna_modulesection a:hover{
+  background-color: rgb(255, 255, 255);
+
+  color:#007664;
+}
+
+
+
+
+ .ccna_sec1div2{
+  height: auto;
+  margin-top: 1vh;
+  border-radius: 5vh 0 5vh 0;
+  box-shadow: 5px 0px 10px 5px rgb(238, 234, 241);
+}
+
+.fullsatckimage{
+  border-radius: 3vh 0 0vh 0 ;
+}
+.ccna_sec1div2 .ccna_sec1div2para{
+  font-size: large;
+  font-weight: 600;
+
+}
+
+.ccna_sec1div2 span{
+  color: gray;
+
+}
+
+.AnimatedButton {
+  margin-bottom: 2vh;
+}
+
+
+
+
+/*  sm (phones) */
+
+@media screen and (max-width: 480px) {
+
+
+ 
+  .ccna_sec1div1 p {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .ccna_modulesection li {
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+  .ccna_sec1div2  {
+    width: 100%;
+  }
+  .ccna_sec1div2 span{
+    color: gray;
+  
+  }
+  .ccna_sec1div2 p {
+    margin-bottom: 1vh;
+  }
+
+
+
+
+  
+}
+
+/* md (tablets) */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  
+
+  .ccna_modulesection li {
+ 
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+  .ccna_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+  .ccna_sec1div2  {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+
+
+
+ 
+}
+
+
+/*  lg (desktops) */
+
+@media screen and (min-width: 769px) and (max-width: 1023px){
+  
+  .ccna_modulesection li {
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+
+  .ccna_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  
+  }
+  .ccna_sec1div2  {
+    width: 70%;
+    margin-left: 15%;
+  }
+
+}
+
+/*  xl (large) */
+
+@media screen and (min-width: 1024px) {
+
+  .ccna_modulesection li {
+    padding: 2vh 0vw 0vh 0vw;
+
+  }
+
+  .ccna_sec1div2 span{
+    font-size: 1.3rem;
+    color: gray;
+  }
+
+}
+
